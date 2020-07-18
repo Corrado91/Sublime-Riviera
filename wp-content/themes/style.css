@@ -1,0 +1,481 @@
+/*
+Theme Name: Beatswave
+Theme URI: http://lifeinsys.com/item/beatswavehtml/demonstration
+Description: Wordpress Music Theme
+Author: LifeInSYS
+Author URI: http://lifeinsys.com
+Version: 1.0
+Tags:  editor-style, featured-images, full-width-template, theme-options, translation-ready, custom-background, custom-colors, custom-menu, one-column, two-columns, custom-logo
+Text Domain: beatswave
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+#logo.centered_menu {
+    opacity: 0;
+    position: relative;
+    float: none;
+}
+.header-continer.centered_menu > .section{
+    opacity: 0;
+}
+
+
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+/**************************************
+CSS INTERNO INDEX
+***************************************/
+body {
+    background-color: #eaeaea;
+}
+/* <style type="text/css" data-type="vc_shortcodes-custom-css"> */
+.vc_custom_1542193429821 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+.vc_custom_1552377721901 {
+    background-image: url(http://items.lifeinsys.com/item/beatswavewp/democontent/white/ferdinand-stohr.png?id=5079) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.vc_custom_1552384556812 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover !important;
+}
+
+.vc_custom_1552387587210 {
+    background-image: url(http://items.lifeinsys.com/item/beatswavewp/democontent/white/kevin-laminto.png?id=5092) !important;
+}
+
+.vc_custom_1533626768174 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.vc_custom_1550582425646 {
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.vc_custom_1538379775258 {
+    margin-top: 0px !important;
+    padding-bottom: 105px !important;
+}
+
+.vc_custom_1533646815899 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.vc_custom_1533644646532 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.vc_custom_1533644730869 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.vc_custom_1533709717521 {
+    margin-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.vc_custom_1533644646532 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.vc_custom_1533644730869 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.wpb_animate_when_almost_visible {
+    opacity: 1;
+}
+
+/****************************************
+CSS INTERNO INDEX
+*****************************************/
+.header_items i:hover,
+.text_logo:hover,
+.header-title h1 span,
+.news_content:hover h2,
+.footer .day_num:hover *,
+.news_content .day_num *,
+.copyright a:hover,
+.plyr--playing .plyr__controls [data-plyr=pause] svg,
+.woocommerce-message i,
+.info p:hover a,
+.lc_widget_contact:hover span,
+.social-icons a:hover,
+.single-price p,
+.archive_nav a:hover,
+.woocommerce-LostPassword.lost_password a:hover,
+.playlist .music_line:hover>span,
+.playlist .music_line:hover .plyr__controls button svg,
+#videos .w-100:hover .video-banner-name h2,
+.global-title h2,
+.categories-line:hover,
+.resent-posts-line:hover .recent-post-name h3,
+nav.woocommerce-MyAccount-navigation ul>li a:hover,
+.woocommerce-MyAccount-content a:hover,
+.header_items i:hover,
+.header-title h1 span,
+.news_content:hover h2,
+.footer .day_num:hover *,
+.info p:hover a,
+.lc_widget_contact:hover span,
+.social-icons a:hover,
+.playlist .music_line:hover>span,
+#single-style-p a:hover,
+.playlist .music_line:hover .plyr__controls button svg,
+#videos .w-100:hover .video-banner-name h2,
+.categories-line:hover,
+.post-category a:hover,
+.post-by a:hover,
+#sidebar a:hover,
+.resent-posts-line:hover .recent-post-name h3,
+.l-b i,
+.c-b i,
+.lc_back_to_top_btn,
+.single-tab-content .nav-tabs .nav-link:hover,
+.single-tab-content .nav-tabs .nav-link:focus,
+.music_date a:hover *,
+.music_after a:hover,
+.s-item-name p,
+.create-password .checkbox label input[type="checkbox"]:checked+.label-text:before,
+.dif-address .checkbox label input[type="checkbox"]:checked+.label-text:before,
+#respond form input[type="checkbox"]:checked+label:before,
+#header .search-bar form button:hover i,
+.cta a,
+.header-title a:hover,
+.mp3>span,
+.footer .day_num span,
+.footer .main_p,
+.discography_banner:hover .music-banner-text h2,
+.global-title h1,
+.title h1,
+#discography-post .plyr--playing .plyr__controls [data-plyr=pause] svg,
+.grid-gallery figcaption h3,
+.post-cta a,
+.results-select .btn-primary,
+.g-p *,
+.c-b a,
+.l-b a,
+.news>div>div:hover .news_content h2,
+.all-events .row.ticket:hover *,
+.all-events .buy a,
+.all-events .day_num span,
+.see-more a,
+#sidebar a:hover,
+.post-heading h2,
+p.post-quote,
+.results-select .dropdown-toggle::after,
+.cart-description h2,
+a.shipping-calculator-button:hover,
+#checkout-list form h3,
+#checkout-list table.table tr:first-child th,
+#checkout-list form button.btn-primary,
+.g-p *,
+.plyr--audio .plyr__controls button.tab-focus:focus,
+.plyr--audio .plyr__controls button:hover,
+.plyr__play-large,
+.s-item-name h2,
+.t-shirt-description h2,
+.single-pr-name h3,
+.catd-button a,
+.single_add_to_cart_button,
+.single-product #blog-post .form .btn-primary,
+.single-tab-content .nav-tabs .nav-link.active,
+.single-tab-content .nav-tabs .nav-item.show .nav-link,
+.lc_widget_contact:hover a,
+.header_items>div:hover i,
+.post-share a:hover,
+.contact-adress>a:hover {
+    color: rgb(171, 46, 186) !important;
+}
+
+.cta a:hover,
+.plyr input[type=range]:active::-webkit-slider-thumb,
+.plyr--audio .plyr__controls button.tab-focus:focus,
+.plyr__play-large,
+.row.ticket:hover .buy a,
+.news_content:hover .cta a,
+.folow ul li a:hover,
+.shop_cta:hover,
+.card_count,
+.payment-method .custom-radio .custom-control-input:checked~.custom-control-label::after,
+.post-cta a:hover,
+.form .btn-primary:hover,
+#popup-container ul li.active,
+.woocommerce-MyAccount-content form button:hover,
+form.woocommerce-form-login button:hover,
+form.woocommerce-ResetPassword button:hover,
+.results-select .dropdown-item:hover,
+.results-select .dropdown-item:focus,
+#checkout-list form .form-group .chosen-results li:hover,
+.cart-buttons a.checkout-button,
+.cart-buttons button:last-child,
+.woocommerce-message a:hover,
+#checkout-list form .form-group .chosen-results li:focus,
+.ad-to-card-button a:hover,
+.results-select .btn-primary:not(:disabled):not(.disabled):active,
+.results-select .btn-primary:not(:disabled):not(.disabled).active,
+.results-select .show>.btn-primary.dropdown-toggle,
+#popup-container ul li:hover,
+.plyr__volume input[type=range]::-webkit-slider-thumb,
+#discography-post .plyr__volume input[type=range]::-webkit-slider-thumb,
+#discography.gallery-photogallery .music-banner>div,
+.grid-item:hover .grid-item-content,
+.grid li:hover figcaption,
+.header-title a,
+.flex-control-nav li a.flex-active,
+.news>div>div:hover .news_content .cta a,
+.event-tickets a:first-child,
+.blog-search form button,
+#checkout-list table.table tbody tr:last-child th,
+#checkout-list form .form-group .bfh-selectbox .bfh-selectbox-options ul::-webkit-scrollbar-thumb,
+.chosen-results::-webkit-scrollbar-thumb,
+.popup_arrow,
+.catd-button a:hover,
+.single_add_to_cart_button:hover,
+.plusminus button:focus,
+.form .btn-primary:active,
+.coupon-form button,
+#checkout-list form button.btn-primary:hover,
+.event-tickets a:hover:first-child,
+.event-tickets a:hover:last-child,
+.cart-buttons a:hover,
+.cart-buttons button:hover:enabled {
+    background-color: rgb(171, 46, 186) !important;
+}
+
+.cta a:hover,
+.cta a,
+.row.ticket:hover .day_num,
+.row.ticket:hover .buy a,
+.form .btn-primary:hover,
+.woocommerce ul.products li.product:hover>a.button,
+.woocommerce button.button.alt:hover,
+.woocommerce #respond input#submit:hover,
+input.button:hover,
+.woocommerce input.button:hover,
+.woocommerce .shop_table_responsive input.button,
+.white_on_black .woocommerce a.button.alt:hover,
+.woocommerce-info,
+.woocommerce form .form-row.woocommerce-invalid input.input-text,
+.unslider-nav ol li.unslider-active,
+.event-tickets a:hover:first-child,
+.event-tickets a:hover:last-child,
+.post-cta a:hover,
+#blog-post .form .btn-primary,
+.results-select .dropdown-menu,
+.ad-to-card-button a:hover,
+.single-tab-content .nav-tabs .nav-link:hover,
+.single-tab-content .nav-tabs .nav-link:focus,
+.coupon-form button,
+.catd-button a,
+.single_add_to_cart_button,
+.woocommerce-MyAccount-content form button,
+form.woocommerce-form-login button,
+form.woocommerce-ResetPassword button,
+.single-tab-content .nav-tabs .nav-link.active,
+.single-tab-content .nav-tabs .nav-item.show .nav-link,
+.results-select .btn-primary:not(:disabled):not(.disabled):active,
+.results-select .btn-primary:not(:disabled):not(.disabled).active,
+.results-select .show>.btn-primary.dropdown-toggle,
+.coupon-form input:focus,
+#respond form input[type="checkbox"]+label:before,
+#album-release .cta a,
+.flex-control-nav li a.flex-active,
+.all-events .buy a,
+.all-events .buy a,
+.all-events .ticket *,
+.event-tickets a,
+.see-more a,
+.results-select .btn-primary,
+.create-password .checkbox label input[type="checkbox"]+.label-text:before,
+.dif-address .checkbox label input[type="checkbox"]+.label-text:before,
+.payment-method .custom-control-label::before,
+.chosen-container .chosen-drop,
+.shop_cta:hover,
+.post-cta a,
+.coupon-form input:focus,
+#video .embed-responsive,
+.video .youtube,
+.flex-control-nav li a,
+.cta a,
+.woocommerce-message a:hover,
+.single-product .ad-to-card-button a:hover,
+#checkout-list form button.btn-primary,
+.form .btn-primary:active,
+#custom-single .form .btn-primary {
+    border-color: rgb(171, 46, 186) !important;
+}
+
+.grid-item--width1:hover .grid-item-content:after,
+.grid-item--width4:hover .grid-item-content:after,
+.news_content .day_num div {
+    border-right-color: rgb(171, 46, 186) !important;
+}
+
+.grid-item--width3:hover .grid-item-content:after {
+    border-left-color: rgb(171, 46, 186) !important;
+}
+
+.grid-item--width3:hover .grid-item-content:after {
+    border-left-color: rgb(171, 46, 186) !important;
+}
+
+.news_content .day_num div {
+    border-right-color: rgb(171, 46, 186) !important;
+}
+
+.playlist .music_line:hover .player-grig {
+    background-image: radial-gradient(circle closest-side, rgb(171, 46, 186) calc(100% - 0.5px), transparent 100%) !important;
+}
+
+.grid-item--width2:hover .grid-item-content:after {
+    border-bottom-color: rgb(171, 46, 186) !important;
+}
+
+.playlist .music_line:hover .play-pause svg polygon,
+.playlist .music_line:hover .play-pause svg path,
+#videos .video-img-banner .play svg path,
+#header .search-bar form button:hover svg path,
+.search_icon:hover svg path,
+.play-pause svg:hover polygon,
+.play-pause svg:hover path,
+.delete-product svg:hover path,
+.playlist .music_line:hover .player-grig svg g,
+.menu_icon:hover svg path,
+.quote-before path,
+.quote-after path,
+.best-offer svg path {
+    fill: rgb(171, 46, 186) !important;
+}
+
+.header-continer {
+    background-color: transparent;
+}
+
+.header-continer.active {
+    background-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1024px) {
+    .header-continer {
+        background-color: rgba(25, 25, 25, 0);
+        background-image: url(http://items.lifeinsys.com/item/beatswavewp/white/wp-content/themes/beatswave/assets/images/01_Home.png);
+        background-image: none !important;
+    }
+
+    #header .nav-menu .section_bg_image {
+        background-image: url(http://items.lifeinsys.com/item/beatswavewp/white/wp-content/themes/beatswave/assets/images/biel-morro-12851256-unsplash.png) !important;
+    }
+
+    #header .nav-menu .section_bg_image {
+        background-color: rgba(25, 25, 25, 0);
+        background-image: url(http://items.lifeinsys.com/item/beatswavewp/white/wp-content/themes/beatswave/assets/images/01_Home.png);
+    }
+}
+
+.nav-demo-1.active .section_bg_image {
+    background-image: none;
+    background-color: rgba(25, 25, 25, 0);
+    background-image: url(http://items.lifeinsys.com/item/beatswavewp/white/wp-content/themes/beatswave/assets/images/01_Home.png);
+}
+
+#header .nav>li,
+.nav-demo-1 #header .nav>li {
+    border-left-color: rgb(171, 46, 186);
+}
+
+#header .nav-menu.nav-demo-2 .nav>li {
+    border: none;
+}
+
+#header ul.nav>li>a {
+    color: #fff;
+}
+
+#header ul.nav li a:hover {
+    color: rgb(171, 46, 186);
+}
+
+#header .nav>li ul.child-item>li a {
+    color: #828282;
+}
+
+#header .nav>li ul.child-item>li a:hover {
+    color: rgb(171, 46, 186);
+}
+
+li.current-menu-item a,
+li.current-menu-parent a,
+li.current-menu-ancestor a,
+#header ul.nav li.active a {
+    color: rgb(171, 46, 186);
+}
+
+ul.child-item li {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.home .header_items i,
+.home #header .search-bar form button {
+    color: #ffffff;
+}
+
+    {
+    fill: #ffffff;
+}
+
+.header_items i:hover {
+    color: rgb(171, 46, 186);
+}
+
+    {
+    fill: rgb(171, 46, 186);
+}
+
+#discography.gallery-photogallery a.img_link {
+    background-color: rgb(171, 46, 186);
+}
+
+.overly {
+    background-image: linear-gradient(rgb(171, 46, 186), #28e3e6);
+}
+
+#gallery .music-banner,
+#single-gallery .grid-item {
+    background-image: linear-gradient(-90deg, rgb(171, 46, 186), #17f1ff);
+}
