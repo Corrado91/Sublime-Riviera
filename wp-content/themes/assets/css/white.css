@@ -120,8 +120,9 @@ a:focus,a:hover {
 }
 .title{
     text-align: center;
-    padding-top: 105px;
-    padding-bottom: 105px;
+    padding: 50px 0px;
+    /* padding-top: 105px;
+    padding-bottom: 105px; */
     position: relative;
     z-index: 10;
 }
@@ -1747,7 +1748,7 @@ a[id^="btn"]::-moz-focus-inner {
 
 #gallery{
     background-color: rgb(255, 255, 255);
-    padding-bottom: 119px;
+    /* padding-bottom: 119px; */
 }
 #gallery .vc_column-inner{
     padding-top:0px;
@@ -2822,8 +2823,8 @@ a:focus, a:hover{
     -moz-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     font-size: 21px;
     background-color: #888;
     margin-right: 5px;
