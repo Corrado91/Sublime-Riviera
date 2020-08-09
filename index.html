@@ -23,10 +23,11 @@
 <link rel='stylesheet' id='main_style-css' href='wp-content/themes/assets/css/white.css' type='text/css' media='all' />
 <link rel='stylesheet' id='menu_style-css' href='wp-content/themes/assets/css/classic_menu_white.css' type='text/css' media='all' />
 <link rel='stylesheet' id='lightbox-css' href='wp-content/themes/assets/lightbox2/css/lightbox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font_awesome-css' href='wp-content/themes/assets/font-awesome/font-awesome.css' type='text/css' media='all' />
 <link rel='stylesheet' id='font_awesome-css' href='wp-content/themes/assets/font-awesome/font-awesome.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='linearicons-css' href='wp-content/themes/assets/linearicons/style.css' type='text/css' media='all' />
 <link rel='stylesheet' id='justified-gallery-css' href='wp-content/themes/assets/justifiedGallery/css/justifiedGallery.min.css' type='text/css' media='all' />
-<link rel='stylesheet' id='unslider-css' href='wp-content/themes/assets/unslider/unslider-min.js' type='text/css' media='all' />
+<link rel='stylesheet' id='unslider-css' href='wp-content/themes/assets/unslider/unslider.css' type='text/css' media='all' />
 <link rel='stylesheet' id='js_composer_front-css' href='wp-content/plugins/js_composer/css/js_composer.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='style-css' href='wp-content/themes/style.css' type='text/css' media='all' />
 <!--Customizer JAVASCRIPT-->
@@ -37,6 +38,7 @@
 <script type='text/javascript' src='wp-content/plugins/revslider/public/js/jquery.themepunch.tools.min.js'></script>
 <script type='text/javascript' src="wp-content/themes/main.js"></script>
 <script type='text/javascript' src='wp-content/themes/assets/js/loadMore.js'></script>
+<script type='text/javascript' src='wp-content/themes/assets/unslider/unslider-min.js'></script>
 <script src="https://use.fontawesome.com/f9ef4ac2e4.js"></script>
 <!-- <link rel='shortlink' href='http://items.lifeinsys.com/item/beatswavewp/white/' /> -->
 <!--Customizer CSS-->
@@ -144,10 +146,8 @@
                     <div class="wpb_wrapper">
                         <div class="wpb_revslider_element wpb_content_element">
                             <link href="http://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet" property="stylesheet" type="text/css" media="all">
-                            <script type="text/javascript"
-                                src="http://items.lifeinsys.com/item/beatswavewp/white/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js?rev=5.4.7"></script>
-                            <script type="text/javascript"
-                                src="http://items.lifeinsys.com/item/beatswavewp/white/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js?rev=5.4.7"></script>
+                            <script type="text/javascript" src="wp-content/plugins/revslider/public/js/jquery.themepunch.tools.min.js"></script>
+                            <script type="text/javascript" src="wp-content/plugins/revslider/public/js/jquery.themepunch.revolution.min.js?rev=5.4.7"></script>
                             <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullscreen-container"
                                 data-source="gallery" style="background:rgba(0,0,0,0.9);padding:0px;">
                                 <!-- START REVOLUTION SLIDER 5.4.7 fullscreen mode -->
@@ -180,8 +180,7 @@
                                                 data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
                                                 data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                                                 style="z-index: 5; min-width: 100%px; max-width: 100%px; white-space: nowrap; font-size: 35px; line-height: 60px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing: px;font-family:Oswald;">
-                                                <div class="header-title wow zoomIn"
-                                                    style="visibility: visible; animation-name: zoomIn;">
+                                                <div class="header-title wow zoomIn" style="visibility: visible; animation-name: zoomIn;">
                                                     <h1>For you and your friends</h1>
                                                     <a href="https://soundcloud.com/sublime_riviera" target="_blank">Ascoltami</a>
                                                 </div>
@@ -326,7 +325,7 @@
                                         <!-- START ALBUM RELEASE SECTION -->
                                         <div class="section text-center">
                                             <div class="row">
-                                                <div class="col-6">
+                                                <div class="col-12 col-xl-6 col-md-6 col-sm-12">
                                                     <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/41575743&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
                                                     </iframe>
                                                     <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
@@ -335,7 +334,7 @@
                                                         </a>
                                                     </div>
                                                 </div>
-                                                <div class="col-6">
+                                                <div class="col-12 col-xl-6 col-md-6 col-sm-12">
                                                     <div id="album">
                                                         <h1 class="text-center">About</h1>
                                                         <!-- <p class="text_uppercase text-center">Lorem ipsum dolor</p> -->
@@ -771,7 +770,7 @@
     var thickboxL10n = { "next": "Next >", "prev": "< Prev", "image": "Image", "of": "of", "close": "Close", "noiframes": "This feature requires inline frames. You have iframes disabled or your browser does not support them.", "loadingAnimation": "http:\/\/items.lifeinsys.com\/item\/beatswavewp\/white\/wp-includes\/js\/thickbox\/loadingAnimation.gif" };
 /* ]]> */
 </script>
-<script type='text/javascript' src='http://items.lifeinsys.com/item/beatswavewp/white/wp-includes/js/thickbox/thickbox.js?ver=3.1-20121105'></script>
+<script type='text/javascript' src='wp-includes/js/thickbox/thickbox.js'></script>
 <script type='text/javascript'>
     /* <![CDATA[ */
     var DATAVALUES = { "ajaxurl": "http:\/\/items.lifeinsys.com\/item\/beatswavewp\/white\/wp-admin\/admin-ajax.php" };
