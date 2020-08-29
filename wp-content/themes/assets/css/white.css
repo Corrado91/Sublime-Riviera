@@ -165,9 +165,9 @@ a:focus,a:hover {
     display: inline-block;
     float: left;
 }
-.no-bg-color{
+/* .no-bg-color{
     background-color: transparent!important;
-}
+} */
 .wpb_content_element{
     margin-bottom:0px!important;
 }
@@ -572,31 +572,18 @@ body.home #header .header-continer.active{
     height: -moz-fit-content;
     height: fit-content;
     position: absolute;
-    left: 0;
+    left: 0%;
     right: 0;
-    top: 0;
-    bottom: 0;
+    /* top: 0%; */
+    bottom: 100px;
     margin:auto;
     text-align: center;
-    z-index: 9;
-    margin-bottom: 16px!important;
+    /* z-index: 9;
+    margin-bottom: 16px!important; */
 }
 .header-title h1 span{
     color: #2ac4b7;
 }
-/*--------------------*/
-/* HEADER END */
-/*--------------------*/
-
-
-/* =================================================  */
-/* HOME PAGE CSS */
-/* =================================================  */
-
-
-/*--------------------*/
-/* NEW ALBUM RELEASE */
-/*--------------------*/
 
 /*--------------------*/
 /* Player.css */
@@ -1575,6 +1562,18 @@ a[id^="btn"]::-moz-focus-inner {
 /*--------------------*/
 /* NEW ALBUM RELEASE END */
 /*--------------------*/
+
+    .img-back-cover{
+    background-image: url(http://items.lifeinsys.com/item/beatswavewp/white/wp-content/uploads/revslider/SliderMainDemo/vladislav-todorov.png);
+    background-size: cover;
+    width: max-content;
+    background-position: center center;
+    width: 100%;
+    height: -webkit-fill-available;
+    opacity: 1;
+    visibility: inherit;
+    z-index: 20;
+    }
 
 /*--------------------*/
 /* ON TOUR */
