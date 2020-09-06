@@ -399,7 +399,7 @@ form.woocommerce-ResetPassword button,
     }
 
     #header .nav-menu .section_bg_image {
-        background-image: url(item/beatswavewp/white/wp-content/themes/beatswave/assets/images/biel-morro-12851256-unsplash.png) !important;
+        background-image: url("../../wp-content/themes/assets/images/biel-morro-12851256-unsplash.png") !important;
     }
 
     #header .nav-menu .section_bg_image {
@@ -455,16 +455,8 @@ ul.child-item li {
     color: #ffffff;
 }
 
-    {
-    fill: #ffffff;
-}
-
 .header_items i:hover {
     color: rgb(171, 46, 186);
-}
-
-    {
-    fill: rgb(171, 46, 186);
 }
 
 #discography.gallery-photogallery a.img_link {
