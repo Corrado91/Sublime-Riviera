@@ -394,24 +394,24 @@ form.woocommerce-ResetPassword button,
 @media (max-width: 1024px) {
     .header-continer {
         background-color: rgba(25, 25, 25, 0);
-        background-image: url(http://items.lifeinsys.com/item/beatswavewp/white/wp-content/themes/beatswave/assets/images/01_Home.png);
+        background-image: url(item/beatswavewp/white/wp-content/themes/beatswave/assets/images/01_Home.png);
         background-image: none !important;
     }
 
     #header .nav-menu .section_bg_image {
-        background-image: url(http://items.lifeinsys.com/item/beatswavewp/white/wp-content/themes/beatswave/assets/images/biel-morro-12851256-unsplash.png) !important;
+        background-image: url(item/beatswavewp/white/wp-content/themes/beatswave/assets/images/biel-morro-12851256-unsplash.png) !important;
     }
 
     #header .nav-menu .section_bg_image {
         background-color: rgba(25, 25, 25, 0);
-        background-image: url(http://items.lifeinsys.com/item/beatswavewp/white/wp-content/themes/beatswave/assets/images/01_Home.png);
+        background-image: url(item/beatswavewp/white/wp-content/themes/beatswave/assets/images/01_Home.png);
     }
 }
 
 .nav-demo-1.active .section_bg_image {
     background-image: none;
     background-color: rgba(25, 25, 25, 0);
-    background-image: url(http://items.lifeinsys.com/item/beatswavewp/white/wp-content/themes/beatswave/assets/images/01_Home.png);
+    background-image: url(item/beatswavewp/white/wp-content/themes/beatswave/assets/images/01_Home.png);
 }
 
 #header .nav>li,
